@@ -48,7 +48,7 @@ p {
 
 /* BOTÃO */
 button {
-  padding: 0.8em 1.8em;
+  padding: 0.8rem 1.8rem;
   position: relative;
   overflow: hidden;
   background-color: transparent;
@@ -147,4 +147,24 @@ button:hover::before {
 .button-dark:hover {
   color: var(--text-color-clear);
   border-color: var(--text-color-clear);
+}
+
+/* BREAKPOINTS */
+@media (max-width: 425px) {
+  body {
+    font-size: 55%;
+  }
+
+  .container {
+    width: 84vw;
+  }
+
+  .box {
+    height: 38rem;
+    width: 80vw;
+  }
+
+  button {
+    padding: 0.4rem 0.9rem;
+  }
 }
