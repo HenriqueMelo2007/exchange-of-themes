@@ -59,6 +59,10 @@ button {
   z-index: 1;
   font-family: inherit;
 }
+
+button:hover {
+  cursor: pointer;
+}
  
 button:hover::before {
   width: 105%;
