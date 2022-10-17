@@ -1,7 +1,7 @@
 # Exchange-Of-Themes
 
-![preview](assets/preview-clear-readme.png)
-![preview](assets/preview-dark-readme.png)
+![preview](assets/preview-clear.png)
+![preview](assets/preview-dark.png)
 
 > Information:
 
